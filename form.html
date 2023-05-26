@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="register.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>REGISTRATE</h1>
+        <div class="form-box login">
+            <h2>¡TE DAMOS LA BIENVENIDA A DON CHAMBITAS!</h2>
+            
+            <form action="#">
+                <div class="input-row">
+                    <div class="name">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="second-name">
+                        <input type="text" placeholder="Apellido Paterno" required>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="last-name">
+                        <input type="text" placeholder="Apellido Materno" required>
+                    </div>
+                    <div class="genero">
+                        <input list="genero" placeholder="Género" required>
+                        <datalist id="genero">
+                            <option value="Masculino"></option>
+                            <option value="Femenino"></option>
+                            <option value="No especificar"></option>
+                        </datalist>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="cellphone-number">
+                        <input type="text" placeholder="Número celular" required>
+                    </div>
+                </div>
+                
+                    <div class="email">
+                        <input type="email" placeholder="Correo electrónico" required>
+                    </div>
+                
+                <br>
+                <button type="submit" class="btn">Continuar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -27,6 +27,7 @@
 h1 {
     position: absolute;
     top: 0;
+    
 }
 
 input {
@@ -58,6 +59,7 @@ input {
     left: 30px;
     font-size: 2em;
     color: #162938;
+    border-top: 2px solid #162938;/*Borde(línea) que se ve */
 }
 
 .wrapper .form-box {

@@ -82,10 +82,24 @@ input {
 }
 
 .btn__omitir{
-    width: 100%;
+    width: 48%;
     height: 45px;
     bottom: 0;
     background: #000;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+
+.btn__continuar{
+    width: 48%;
+    height: 45px;
+    bottom: 0;
+    background: #f69231;
     border: none;
     outline: none;
     border-radius: 6px;

@@ -13,46 +13,34 @@
         <div class="form-box login">
             <h2>¡TE DAMOS LA BIENVENIDA A DON CHAMBITAS!</h2>
             
-            <form action="#">
+            <form action="SP-register.html">
                 <div class="input-row">
-                    <div class="edad">
-                        <input type="number" placeholder="Edad" required min="18">
+                    <div class="name">
+                        <input type="text" placeholder="Nombre" required>
                     </div>
-                    <div class="pais">
-                        <input type="text" placeholder="País" required>
+                    <div class="second-name">
+                        <input type="text" placeholder="Apellido Paterno" required>
                     </div>
                 </div>
                 <div class="input-row">
-                    <div class="estado">
-                        <input type="text" placeholder="Estado" required>
+                    <div class="last-name">
+                        <input type="text" placeholder="Apellido Materno" required>
                     </div>
-                    <div class="genero">
-                        <input type="text" placeholder="Código Postal" required>
-                    </div>
+                    <div class="cellphone-number">
+                        <input type="text" placeholder="Número celular" required  >
+                    </div> 
                 </div>
                 <div class="input-row">
-                    <div class="calle">
-                        <input type="text" placeholder="Calle" required>
-                    </div>         
-                        <div class="num_int">
-                            <input type="number" placeholder="Número Interior">
+                    <div class="password">
+                        <input type="password" placeholder="Contraseña" required minlength="8" > 
+                    </div>
+                            
+                        <div class="email">
+                            <input type="email" placeholder="Correo electrónico" required>
                         </div>
                 </div>
-                <div class="input-row">
-                    <div>
-                        <input type="number" placeholder="Número Exterior" required min="0">
-                    </div>
-                    <div class="genero">
-                        <input list="genero" placeholder="Género" required>
-                        <datalist id="genero">
-                            <option value="Masculino"></option>
-                            <option value="Femenino"></option>
-                            <option value="No especificar"></option>
-                        </datalist>
-                    </div>
-                </div>
+                
                 <br>
-                <button type="submit" class="btn__omitir"><a href="form.html">Omitir por ahora</a></button>
                 <button type="submit" class="btn">Continuar</button>
             </form>
         </div>

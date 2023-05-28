@@ -1,4 +1,4 @@
-.name, .last-name, .cellphone-number, .second-name, .genero {
+.name, .last-name, .cellphone-number, .second-name, .genero, .password {
     width: 48%;
 }
 
@@ -79,6 +79,25 @@ input {
     font-size: 1em;
     color: white;
     font-weight: 500;
+}
+
+.btn__omitir{
+    width: 100%;
+    height: 45px;
+    bottom: 0;
+    background: #000;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+
+.btn__omitir a{
+    color: white;
+    text-decoration: none;
 }
 
 /* body.css */
